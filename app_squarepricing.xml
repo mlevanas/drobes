@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension version="3.0" method="upgrade" type="plugin" group="j2store">
+	<name>Square pricing</name>
+	<version>1.0</version>
+	
+	<files>
+		<filename plugin="app_squarepricing">app_squarepricing.php</filename>
+		<filename>squarecalculator.php</filename>
+		<folder>forms</folder>
+		<folder>app_squarepricing</folder>
+	</files>
+
+</extension>

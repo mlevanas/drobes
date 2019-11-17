@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<fieldset name="basic">
+		<field required="true" type="number" default="0" min="10" name="drobe_width" label="Plotis" description="Drobės plotis (cm)"/>
+		<field required="true" type="number" default="0" min="10" name="drobe_height" label="Aukštis" description="Drobės aukštis (cm)"/>
+		<field type="checkbox" name="drobe_poremis" label="Porėmis" description="Įtraukti porėmį į komplektaciją"/>
+		<field type="file" name="drobe_picture" label="Įkelti atvaizdą" description="Pasirinkite norimą paveikslą" accept="image/*" />
+	</fieldset>
+</form>
